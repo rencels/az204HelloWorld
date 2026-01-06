@@ -27,7 +27,7 @@ app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages:
 // REMOVE or comment this out
 // app.UseHttpsRedirection();
 
-app.Urls.Add("http://0.0.0.0:8080");
+//app.Urls.Add("http://0.0.0.0:8080");
 
 app.UseAntiforgery();
 
